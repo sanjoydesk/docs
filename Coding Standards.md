@@ -89,46 +89,37 @@
             }
         ?>
         
-        
-    Control Structure
-    -----------------
     
+    Control Structure
+    ------------------
+
     If you have a look at core libraries you can find i have not used any kind of Curly braces if core code. 
     Using curly braces { } is a old fashion of code, so I have almost avoided { } curly braces in my code. 
     My idea is to make code clean and simple to look and maintained same throughout the code.
-
-    For example-
+    
+    For example- 
 
     IF / ELSE Conditions
-    --------------------
-    <?php
-    
-    if (($conditions1) && ($conditions2)):
-
-    elseif ($condition2):
-
-    else:
-
-    endif;
-
-    ?>
-    
+    --------------------  
+    <?php    
+        if (($conditions1) && ($conditions2)):
+              ..............
+        elseif ($condition2):
+              ...............
+        else:
+              ................
+        endif;
+     ?>    
     FOREACH Loop
-    ------------
-  
-    <?php
+    ------------  
+    <?php    
     foreach ($result_array as $row):
-
-
-    endforeach;
-    
+      echo "................";
+    endforeach;    
     ?>
-
     SWITCH CASE Conditions
     ----------------------
-
-    <?php
-    
+    <?php    
     switch ($type):
             case 1:
                   action 1;
@@ -136,80 +127,64 @@
             case 2:
                   action2;
             break;
-    endswitch;
-    
-    ?>
-    
+    endswitch;    
+    ?>    
     Ternary Operators:
-    ------------------
-    <?php
-    $result = (($conditions1) && ($condtions2)) ? $foo : $bar;
-    
+    ------------------        
+    <?php    
+    $result = (($conditions1) && ($condtions2)) ? $foo : $bar;    
     ?>
-
     VARIABLES :
-    -----------
+    -----------    
     i. Have your variable name in lowercase with underscore if needed.
     ii. Define the variables before use, don't pass directly into conditions without defining.
-
     ARRAYS
     -------
     i. Similarly array name should be in lower case and format it as below.
-
-    <?php 
-    
+    <?php     
     $result_array = array(
-                                            'foo'      -> $bar,
-                                            'name' ->'Sanjoy'
-                                          );
-    ?>                                      
-
-    Documentation and Commenting code:
-    ----------------------------------
+                          'foo'      -> $bar,
+                          'name' ->'Sanjoy'
+                          );
+    ?>
     
-    Have your code properly documented and with proper comments. Which will be easy for others to update code if needed.
-    Don't use any short tag in your code.Since Cygnite is alpha version you may not find much documentation and comments,
-    will be followed in upcoming release.
+    Documentation and Commenting code:
+    ----------------------------------    
+    
+    Have your code properly documented and with proper comments. Which will be easy for others to update code 
+    if needed. Don't use any short tag in your code.Since Cygnite is alpha version you may not find much documentation
+    and comments,will be followed in upcoming release.
 
     Naming Conventions
     ------------------
-
     Classes
     ---------
     Classes should be given descriptive names. Class name should be begin with upper case and you can either follow
-    with underscore for long name else like -
-    
-    <?php
-    
+    with underscore for long name else like -      
+    <?php    
     class CF_HTML_Tag_Genarator
     {
-
+        ................
     }
     or
     class CF_HTMLTagGenarator
     {
-
+        ..................
     }
-    
-    ?>
-    
-    both the case is fine to use.
+      both the case is fine to use.
 
     Variable and Methods
     ---------------------------
 
     Private class members are preceded by a single underscore. For example:
-    <?php
-    
-    $status_counter        _sortarray()
-    
+    <?php    
+        $status_counter        _sortarray()    
     ?>
-
     Constants should be in UPPERCASE.
 
 
     Try to follow all standards in your code to make cygnite better. Apart from above coding standards you can follow
-    pear coding structure for your application expect changing core code structure.
+    pear coding structure for your application except changing core code structure.
     
     
     
