@@ -19,81 +19,77 @@
    Controllers & Libraries
    -----------------------
 
-   Controller:
+   Controllers:
    -----------
-
-   i. Controller name should start with upper case and followed by controller path. For example if you have controller 
+    i. Controller name should start with upper case and followed by controller path. For example if you have controller 
       as welcomeuser.php and controller path is apps/controllers/welcomeuser.php then your controller name should be
       as- WelcomeuserAppsController.
-
-  ii. Please have tab before starting your controller name and have two tab to start your method name.
-
-  For example -
-    <?php
-
-    class WelcomeuserAppsController extends CF_BaseController
-    {
-        public function __construct()
-        {
-             parent::__construct();
-        }
-        public function action_index()
-        {
-
-        }
-
-        public function action_user_details()
-        {
-
-        }
-
-    }
-    ?>
-    
-    iii. Method name should be in small letter follows by underscore if needed as above.
+    ii. Please have tab before starting your controller name and have two tab to start your method name.
+      
+      For example -
+      <?php
+       
+       class WelcomeuserAppsController extends CF_BaseController
+       {
+         public function __construct()
+         {
+              parent::__construct();
+         }
+        
+         public function action_index()
+         {
+         
+         }
+         
+         public function action_user_details()
+         { 
+         
+         }
+       }
+     ?>
+      
+      iii. Method name should be in small letter follows by underscore if needed as above.
 
 
    Libraries:
    ----------
-    i. All library file name should be added with prefix CF_. for example if your library name is Loader.php than 
+     i. All library file name should be added with prefix CF_. for example if your library name is Loader.php than 
        it should have prefix as CF_Loader.php
-
-    <?php
-
-    class CF_Loader
-    {
-        public function load()
+       <?php
+       
+        class CF_Loader
         {
-            .............
+          public function load()
+          {
+             .............
+          }
         }
-
-    }
-    ?>
-    
-    ii. Have proper documentation and comments for your code which will make easy to update the code in future by 
+       ?>
+     ii. Have proper documentation and comments for your code which will make easy to update the code in future by 
         others if needed.
         
     iii. Method name should be always lowercase and in case of long name underscore should be added.
 
 
    Helpers:
-   ========
+   ----------
     i.  Additions of library coding standards helpers file name should have CF_ prefix before filename.
-    ii. You can have either CF_ prefix in your helper class name or just name like Url
+    ii. You can have either CF_ prefix in your helper class name or just name like Url.
     iii. All helpers static methods to access it directly with helper class name.
-
-    For Example -
-  <?php
-  
-    class Url
-    {
-        public static function redirect_to()
-        {
-
-        }
-   }
-   ?>
-   
+       
+        For Example -
+        <?php
+            class Url
+            {
+              public static function redirect_to()
+              {
+              
+              }
+              
+            }
+        ?>
+        
+        
     Control Structure
     -----------------
     
