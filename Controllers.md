@@ -112,4 +112,4 @@ Cygnite Framework User Guide
           echo "I am inside private method";
        }
        
-       By this way you can declare method as private as make it hidden via url.
+       This way you can declare method as private as make it hidden from url access.
