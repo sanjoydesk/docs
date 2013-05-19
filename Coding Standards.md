@@ -3,9 +3,10 @@
 
    Introduction
   ==================
-    Cygnite Framework is free, open source and user friendly. Mean to say you can actively contribute on cygnite development and it progress. Cygnite source
-    code is currently hosted on Github which provide you easy to fork, develop, update and push into our development branch. You can even send me patch to
-    make the framework better. My main aim is to provide user friendly and with almost all feature in single place, which will help any web artists.
+    Cygnite Framework is free, open source and user friendly. Mean to say you can actively contribute on cygnite development
+    and it progress. Cygnite source code is currently hosted on Github which provide you easy to fork, develop, update and push
+    into our development branch. You can even send me patch to make the framework better. My main aim is to provide more
+    user friendly and with almost all feature in single place, which will help any web artists.
 
 
    Coding Standards
@@ -19,8 +20,8 @@
    Controller:
    ========
 
-   i. Controller name should start with upper case and followed by controller path. For example if you have controller as welcomeuser.php and controller
-      path is apps/controllers/welcomeuser.php then your controller name should be as- WelcomeuserAppsController.
+   i. Controller name should start with upper case and followed by controller path. For example if you have controller as welcomeuser.php
+     and controller path is apps/controllers/welcomeuser.php then your controller name should be as- WelcomeuserAppsController.
 
   ii. Please have tab before starting your controller name and have two tab to start your method name.
 
@@ -50,7 +51,8 @@
 
    Libraries:
    ========
-    i. All library file name should be added with prefix CF_. for example if your library name is Loader.php than it should have prefix as CF_Loader.php
+    i. All library file name should be added with prefix CF_. for example if your library name is Loader.php than it should have
+        prefix as CF_Loader.php
 
     <?php
 
@@ -83,8 +85,9 @@
    }
     Control Structure
     ==============
-    If you have a look at core libraries you can find i have not used any kind of Curly braces if core code. Using curly braces { } is a old fashion of code, so
-    I have almost avoided { } curly braces in my code. My idea is to make code clean and simple to look, and maintained same throughout the code.
+    If you have a look at core libraries you can find i have not used any kind of Curly braces if core code. Using curly braces { } is
+    a old fashion of code, so I have almost avoided { } curly braces in my code. My idea is to make code clean and simple to look,
+    and maintained same throughout the code.
 
     For example-
 
@@ -138,16 +141,17 @@
 
     Documentation and Commenting code:
     ===============================
-    Have your code properly documented and with proper comments. Which will be easy for others to update code if needed. Don't use any short tag in your
-    code.Since Cygnite is alpha version you may not find much documentation and comments, will be followed in upcoming release.
+    Have your code properly documented and with proper comments. Which will be easy for others to update code if needed.
+    Don't use any short tag in your code.Since Cygnite is alpha version you may not find much documentation and comments,
+    will be followed in upcoming release.
 
     Naming Conventions
     =================
 
     Classes
     ---------
-    Classes should be given descriptive names. Class name should be begin with upper case and you can either follow with underscore for long name else
-    like -
+    Classes should be given descriptive names. Class name should be begin with upper case and you can either follow
+    with underscore for long name else like -
     class CF_HTML_Tag_Genarator
     {
 
@@ -169,5 +173,5 @@
     Constants should be in UPPERCASE.
 
 
-    Try to follow all standards in your code to make cygnite better. Apart from above coding standards you can follow pear coding structure for
-    your application expect changing core code structure.
+    Try to follow all standards in your code to make cygnite better. Apart from above coding standards you can follow
+    pear coding structure for your application expect changing core code structure.
