@@ -1,5 +1,5 @@
   Cygnite Framework User Guide
-  -------------------------------------
+==================================
 
    Introduction
    ------------
@@ -144,10 +144,10 @@
                           'foo'      -> $bar,
                           'name' ->'Sanjoy'
                           );
-    ?>
+    ?>    
     
     Documentation and Commenting code:
-    ----------------------------------    
+    ----------------------------------      
     
     Have your code properly documented and with proper comments. Which will be easy for others to update code 
     if needed. Don't use any short tag in your code.Since Cygnite is alpha version you may not find much documentation
