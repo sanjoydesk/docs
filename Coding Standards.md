@@ -20,7 +20,7 @@
    -----------------------
 
    Controllers:
-   -----------
+   -------------
     i. Controller name should start with upper case and followed by controller path. For example if you have controller 
       as welcomeuser.php and controller path is apps/controllers/welcomeuser.php then your controller name should be
       as- WelcomeuserAppsController.
@@ -95,10 +95,8 @@
 
     If you have a look at core libraries you can find i have not used any kind of Curly braces if core code. 
     Using curly braces { } is a old fashion of code, so I have almost avoided { } curly braces in my code. 
-    My idea is to make code clean and simple to look and maintained same throughout the code.
-    
+    My idea is to make code clean and simple to look and maintained same throughout the code.    
     For example- 
-
     IF / ELSE Conditions
     --------------------  
     <?php    
@@ -181,10 +179,16 @@
         $status_counter        _sortarray()    
     ?>
     Constants should be in UPPERCASE.
+    
 
-
+    Interface name should have prefix as I. If your interface name is "Auth" then It should be like "IAuth". 
+    
+    
     Try to follow all standards in your code to make cygnite better. Apart from above coding standards you can follow
     pear coding structure for your application except changing core code structure.
+    
+    
+     
     
     
     
