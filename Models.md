@@ -1,8 +1,8 @@
-    Cygnite Framework User Guide
-    ============================
+ Cygnite Framework User Guide
+ ============================
 
-    Models
-   ------------
+ Models
+ ------------
 
  What is Models ?
  ---------------------
