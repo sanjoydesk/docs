@@ -1,5 +1,6 @@
+  
   Cygnite Framework User Guide
-  ============================
+  ----------------------------
 
    How to autoload libraries and Classes ?
    -----------------------------------------------
