@@ -56,7 +56,7 @@ Cygnite Framework User Guide
             public function action_author()
             {
                 // Load welcome view and pass array into view page.
-                $this->render("welcome",array(
+                $this->render("welcome")->with(array(
                                                     'author'=>'Sanjay',
                                                     'email'=>'sanjoy09@hotmail.com',
                                                     'country'=> $this->country
